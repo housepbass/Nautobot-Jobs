@@ -13,6 +13,8 @@ Device Lifecycle app.
 2. Create software version based on 'os_version' in Nautobot LCM app
 3. Create software to device relationship
 #### Notes
-Once adding this to your nautobot repo, you can manually
+- Shoutout to [dpeachey](https://github.com/dpeachey/nautobot-custom-jobs) for
+the Nornir patterns. His repo has a collection of very useful Nautobot jobs.
+- Once adding this to your nautobot repo, you can manually
 group this job with the 'Device/Software Lifecycle Reporting'
 Jobs.
