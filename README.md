@@ -9,12 +9,12 @@ Device Lifecycle app.
 - [Nautobot Plugin Nornir](nautobot_plugin_nornir)
 - [Nautobot Golden Config App](https://github.com/nautobot/nautobot-plugin-golden-config)
 #### Job Logic
-1. Use 'nornir_napalm' 'get_facts' to retrieve 'os_version'
-2. Create software version based on 'os_version' in Nautobot LCM app
+1. Use `nornir_napalm` `get_facts` to retrieve `os_version`
+2. Create software version based on `os_version` in Nautobot LCM app
 3. Create software to device relationship
 #### Notes
 - Shoutout to [dpeachey](https://github.com/dpeachey/nautobot-custom-jobs) for
 the Nornir patterns. His repo has a collection of very useful Nautobot jobs.
 - Once adding this to your nautobot repo, you can manually
-group this job with the 'Device/Software Lifecycle Reporting'
+group this job with the `Device/Software Lifecycle Reporting`
 Jobs.
